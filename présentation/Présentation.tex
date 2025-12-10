@@ -1,0 +1,172 @@
+\documentclass[10pt,a4paper]{article}
+\title{\textbf{P}rojet \textbf{F}inal : \textbf{A}ccess}
+\author{
+  ANAIS, BERTRAND - - VIEUX - MELCHIOR\\
+  \texttt{anais.bertrand-----vieux---melchior@etu.univ-lyon1.fr}
+  \and
+  PRISCILLA, GOGUY\\
+  \texttt{priscilla.goguy@etu.univ-lyon1.fr}
+  \and
+  MAHLÎ, REINETTE\\
+  \texttt{mahli.reinette@etu.univ-lyon1.fr}
+}
+\date{13/10/2025}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+\usepackage[many]{tcolorbox}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{xr-hyper} 
+\usepackage{hyperref} 
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\externaldocument[B-]{docB}[Annexe01.pdf]% <- full or relative path
+
+
+% le préambule
+
+
+
+
+
+
+
+
+
+
+
+% initialisation des couleurs
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+
+
+
+
+
+%block de code 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+
+
+
+
+%initialisation graphics
+\tikzset{
+->,
+node distance = 2cm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% le corps du document
+
+
+
+
+
+
+% le préambule
+\begin{document}
+%titre
+\pagecolor{black!20}
+\maketitle
+
+
+\begin{center}
+\textbf{\textit{M1 Actuariat}}
+
+\textbf{\textit{ISFA}}
+
+\includegraphics[width=4cm,height=2cm]{img1}
+
+%\href{https://github.com/LaboiteNoire/techniques-de-simulations-}{\includegraphics[width=1cm,height=1cm]{img2}}
+
+\end{center}
+
+
+\newpage
+
+\phantom{aaaaaa}
+
+\tableofcontents
+
+\newpage
+
+
+\section{Préambule}
+\subsection{Préambule}
+
+\section{Construction}
+\subsection{1. Source des données}
+\subsection{2. Table Choix}
+\subsection{3. Requêtes Lignes de départ et Lignes d'arrivée}
+\subsection{4. Trajets directs}
+\subsection{5. Correspondances}
+\subsection{6. Trajets avec changements}
+\subsection{7. Requêtes d'ajout, table des trajets}
+\subsection{8. Interface utilisateur}
+\subsection{9. Sous-formulaire}
+\subsection{10. Compléments libres}
+\section{Conclusions et Commentaires}
+\subsection{Commentaires}
+\subsection{Conclusions}
+
+
+
+
+
+
+
+\end{document}
